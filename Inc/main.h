@@ -57,10 +57,10 @@
 
 /* Private define ------------------------------------------------------------*/
 
-#define STATUS_LED_Pin GPIO_PIN_2
+#define STATUS_LED_Pin GPIO_PIN_6
 #define STATUS_LED_GPIO_Port GPIOA
 
-#define BUTTON_Pin GPIO_PIN_7
+#define BUTTON_Pin GPIO_PIN_3
 #define BUTTON_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
 #define BOOTLOADER_FLAG_REGISTER	0x00

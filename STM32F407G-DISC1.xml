@@ -10,10 +10,11 @@
 ]>
 
 <targetDefinitions>
-  <board id="f4bootloader">
-    <name>F4Bootloader</name>
+  <board id="stm32f407g-disc1">
+    <name>STM32F407G-DISC1</name>
+    <dbgIF>JTAG</dbgIF>
     <dbgIF>SWD</dbgIF>
     <dbgDEV>ST-Link</dbgDEV>
-    <mcuId>stm32f446vetx</mcuId>
+    <mcuId>stm32f407vgtx</mcuId>
   </board>
 </targetDefinitions>

@@ -50,7 +50,7 @@
 
 /* Private typedef ----------------------------------------------------------- */
 /* Private define ------------------------------------------------------------ */
-#define FLASH_DESC_STR      "@Internal Flash   /0x08000000/04*016Ka,01*064Kg,03*128Kg"
+#define FLASH_DESC_STR      "@Internal Flash   /0x08000000/01*016Ka,03*016Kg,01*064Kg,07*128Kg"
 
 #define FLASH_ERASE_TIME    (uint16_t)50
 #define FLASH_PROGRAM_TIME  (uint16_t)50

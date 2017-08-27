@@ -68,7 +68,7 @@
 /* DFU Class Config */
 #define USBD_DFU_MAX_ITF_NUM                   1
 #define USBD_DFU_XFER_SIZE                     1024   /* Max DFU Packet Size   = 1024 bytes */
-#define USBD_DFU_APP_DEFAULT_ADD               0x08010000 /* The first 3 sectors (48 KB) are reserved for DFU code */
+#define USBD_DFU_APP_DEFAULT_ADD               0x08004000 /* The first 1 sector (16 KB) are reserved for DFU code */
 #define USBD_DFU_MAX_NB_OF_SECTORS             12 /* Max number of sectors: 12 sectors in Bank1 */
 
 /* Exported macro ------------------------------------------------------------*/
